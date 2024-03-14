@@ -31,6 +31,6 @@ Alur aplikasi
 1. Penyewa memilih mobil yang ingin di sewa dan menentukan tanggal mulai serta akhir dari penyewaan <br>
 2. Pemilik mengkonfirmasi pesanan sewa tersebut <br>
 3. (Asumsi) penyewa datang ketempat untuk mengambil mobil yang disewa, pemilik mengkonfirmasi status penyewaan mobil tersebut menjadi "dalam penyewaan" <br>
-4. Setelah digunakan, saat penyewa menggunakan mobil, sistem akan mengkalkulasi secara otomatis (termasuk perhitungan denda) <br>
+4. Saat penyewa menggunakan mobil, sistem akan mengkalkulasi secara otomatis biaya pembayaran (termasuk perhitungan denda) <br>
 5. Penyewa harus mengkonfirmasi plat nomor mobil untuk mengembalikan mobil tersebut melalui aplikasi ini <br>
 </p>
