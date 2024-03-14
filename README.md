@@ -9,7 +9,7 @@ Sekilas tentang aplikas ini
 5. Ada user default (sebagai penyewa) dengan menggunakan email <b>fikri@akuntes.com</b> <br>
 6. Default password untuk 2 user di nomor 3 & 4 adalah <b>123456</b> <br>
 7. Pemilik dapat melihat, membuat, serta mengubah data mobil. Namun tidak dapat menghapus data mobil karena data master tidak boleh dihapus. <br>
-7. Penyewa dapat melihat mobil yang tersedia dan melakukan penyewaan.
+8. Penyewa dapat melihat mobil yang tersedia dan melakukan penyewaan.
 </p>
 <br><br>
 <p align="center">
