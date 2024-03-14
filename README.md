@@ -1,5 +1,5 @@
 <p align="center">
-Sekilas tentang aplikas ini
+<b>Sekilas tentang aplikas ini</b>
 </p>
 <p align="justify">
 1. Aplikasi Simpel Penyewaan Mobil <br>
@@ -11,11 +11,10 @@ Sekilas tentang aplikas ini
 7. Pemilik dapat melihat, membuat, serta mengubah data mobil. Namun tidak dapat menghapus data mobil karena data master tidak boleh dihapus. <br>
 8. Penyewa dapat melihat mobil yang tersedia dan melakukan penyewaan.
 </p>
-<br><br>
-<p align="center">
-Cara instalasi
-</p>
 <br>
+<p align="center">
+<b>Cara instalasi</b>
+</p>
 <p align="justify">
 1. Setelah penarikan github, untuk import data gunakan file database .sql dengan nama <b>db_transindo_test.sql</b> <br>
 2. Copy .env.example dan paste-kan pada level direktori yang sama dan ganti nama menjadi .env <br>
@@ -23,9 +22,9 @@ Cara instalasi
 4. Lalu generate kunci aplikasi dengan menggunakan perintah <b>php artisan key:generate</b> pada command line dilakukan pada direktori utama aplikasi <br>
 5. Lalu update library Laravel dengan menggunakan perintah <b>composer update</b> pada command line dilakukan pada direktori utama aplikasi, pastikan versi PHP menggunakan versi 7 (pada saat aplikasi ini dibuat, PHP menggunakan versi 7.4.33)
 </p>
-<br><br>
+<br>
 <p align="center">
-Alur aplikasi
+<b>Alur aplikasi</b>
 </p>
 <p align="justify">
 1. Penyewa memilih mobil yang ingin di sewa dan menentukan tanggal mulai serta akhir dari penyewaan <br>
