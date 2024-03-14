@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Open-Sans-Regular';
+  src: url('../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DM-Sans';
+  src: url('../assets/fonts/DM_Sans/static/DMSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PT-Sans';
+  src: url('../assets/fonts/PT_Sans/PTSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Satisfy';
+  src: url('../assets/fonts/Satisfy/Satisfy-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../assets/fonts/Pacifico/Pacifico-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Product-Sans';
+  src: url('../assets/fonts/Product_Sans/Product-Sans-Regular.ttf') format('truetype');
+}
+
+body{
+  font-family: 'Product-Sans', 'Poppins', 'Open-Sans-Regular', 'DM-Sans', 'PT-Sans', sans-serif;
+}
+.pacifico-font{
+  font-family: 'Pacifico';
+}
+.satisfy-font{
+  font-family: 'Satisfy';
+}
+.font-color{
+  color:#29327d !important; /* Default Polyfin Color #29327d */
+}
+.bg-primary{  
+  background-color:#29327d !important; /* Default Polyfin Color #29327d */
+}
+.btn-primary{
+  background-color:#29327d !important;
+  border-color:#29327d !important;
+}
+.border-primary{
+  border-color:#29327d !important;
+}
+.sidebar-color-polyfin{
+  /* background-color:#29327d !important; */
+  background-color:#ffffff !important;
+}
+.scrollme{
+  overflow-x: auto !important;
+}
+.anti-scrollme-z{
+  overflow-y: disabled !important;
+}
+.show-user-name{
+  display:inline;
+}
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+.landing-page-img{
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  min-width: 100%;
+  height: 600px;
+  max-width: none;
+}
+.border-bold{
+  border: 2px solid !important;
+  border-color:#29327d !important;
+}
+.dashboard-slider{
+  min-width:1530px; 
+  width:1530px;
+}
+.push-width{
+  width:1140px !important;
+  min-width:1140px !important;
+  z-index: -10 !important;
+  margin-bottom: 0 !important;
+}
+.dot-texts-table{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6; /* after 3 line show ... */
+  -webkit-box-orient: vertical;
+}
+
+@media only screen and (hover: none) and (pointer: coarse){
+  .isPhone{
+    visibility: visible;
+    display: block;
+  }
+}
+
+@media only screen and (max-width:240px){
+  .float-right{
+    float: left !important;
+  }
+}
+
+@media only screen and (max-width:576px){
+  .show-user-name{
+    display:none;
+  }
+  .mobile-display-left-things{
+    float: left !important;
+  }
+  .dashboard-slider{
+    min-width:1300px; 
+    width:1300px;
+  }
+}
+
+@media(min-width: 768px){
+  body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-wrapper, 
+  body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-footer, 
+  body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-header {
+    margin-left:280px;
+  }
+  .main-sidebar{
+    width:280px;
+  }
+}
