@@ -22,8 +22,8 @@ Cara instalasi
 3. Ubah isi .env pada kolom <b>DB_DATABASE</b> dengan nama database (<b>db_transindo_test</b>) <br>
 4. Lalu generate kunci aplikasi dengan menggunakan perintah <b>php artisan key:generate</b> pada command line dan pada direktori utama aplikasi <br>
 5. Lalu update library Laravel dengan menggunakan perintah <b>composer update</b>, pastikan versi PHP menggunakan versi 7 (pada saat aplikasi ini dibuat, PHP menggunakan versi 7.4.33)
-<br><br>
 </p>
+<br><br>
 <p align="center">
 Alur aplikasi
 </p>
